@@ -7,20 +7,6 @@ import Author from "./views/Author";
 const App = () => {
   return (
     <Router>
-      {/* This part is only for testing for now */}
-      <div>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/author/John">Author</Link>
-          </li>
-        </ul>
-      </div>
-
-      <hr />
-
       <Switch>
         <Route exact path="/">
           <Home />
