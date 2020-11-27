@@ -1,0 +1,33 @@
+.card {
+  max-width: 95%;
+  width: 715px;
+  min-width: 200px;
+  font-weight: $normal-font-weight;
+  font-size: $large-font-size;
+  margin-top: 140px;
+  position: relative;
+  padding-left: 100px;
+  z-index: 21;
+  cursor: pointer;
+
+  &::before {
+    content: " ";
+    background: $yellow;
+    width: $border-width;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.2s ease-in-out;
+    transform-origin: left;
+    z-index: -10;
+  }
+
+  &:hover {
+    color: $gray;
+
+    &::before {
+      transform: scaleX(100) scaleY(1.2);
+    }
+  }
+}

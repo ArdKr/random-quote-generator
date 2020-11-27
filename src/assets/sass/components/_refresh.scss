@@ -1,0 +1,17 @@
+.refresh {
+  width: 100%;
+  text-align: right;
+  padding: 31px;
+  font-size: $regular-font-size;
+  cursor: pointer;
+  color: $dark-gray;
+  transition: all 0.1s ease-in-out;
+
+  i {
+    margin-left: 11px;
+  }
+
+  &:hover {
+    color: $gray;
+  }
+}

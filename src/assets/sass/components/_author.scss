@@ -1,0 +1,41 @@
+.author {
+  margin-top: 110px;
+  padding: 50px 30px;
+  margin-left: 70px;
+  margin-bottom: 100px;
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+
+  .arrow {
+    font-size: $large-font-size;
+    color: transparent;
+  }
+
+  .name {
+    font-weight: $bold-font-weight;
+    font-size: $medium-font-size;
+    color: $dark-gray;
+  }
+
+  .genre {
+    color: $light-gray;
+  }
+
+  &:hover {
+    background: $gray;
+
+    .name {
+      color: $white;
+    }
+
+    .genre {
+      color: $light-gray;
+    }
+
+    .arrow {
+      color: $white;
+    }
+  }
+}
