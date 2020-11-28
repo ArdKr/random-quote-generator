@@ -1,4 +1,4 @@
-# Edie Homepage solution
+# Random quote generator built using React
 
 Solution for a challenge from [Devchallenges.io](https://devchallenges.io/).
 
@@ -6,7 +6,6 @@ Solution for a challenge from [Devchallenges.io](https://devchallenges.io/).
 
 ### Built With
 
-- Vanilla JS
 - [Sass](https://sass-lang.com/)
 - [React](https://reactjs.org)
 - [Axios](https://github.com/axios/axios)
