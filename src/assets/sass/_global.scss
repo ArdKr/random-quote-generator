@@ -17,4 +17,12 @@ a {
   width: 100%;
   max-width: 723px;
   margin: 0 auto;
+  margin-bottom: 150px;
+}
+
+.home {
+  position: absolute;
+  top: 50px;
+  font-size: $regular-font-size;
+  color: $gray;
 }
