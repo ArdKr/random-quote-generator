@@ -15,7 +15,6 @@ const Author = () => {
       <Card />
       <Card />
 
-      <AuthorInfo />
     </div>
   );
 };

@@ -1,9 +1,9 @@
 import React from "react";
 
-const Refresh = () => {
+const Refresh = ({onClick}) => {
   return (
-    <div className="refresh">
-      Refresh <i class="fas fa-sync-alt"></i>
+    <div className="refresh" onClick={onClick}>
+      Refresh <i className="fas fa-sync-alt"></i>
     </div>
   );
 };
